@@ -90,7 +90,7 @@ hindiTokenization.pkl: Tokenizer for preprocessing Hindi text.
 <h4>English Dataset:</h4> [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)   
 for english both test.csv and train.csv used.
 
-<h4>Hindi Dataset:</h4>   [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
+<h4>Hindi Dataset:</h4>   [Kaggle Link](https://www.kaggle.com/datasets/shivamtaneja2304/inshorts-dataset-hindi)
 
 Download and place them in the directory.
 
