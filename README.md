@@ -36,8 +36,8 @@ Prerequisites
 
 Python 3.7 or higher
 Libraries: numpy, pandas, sklearn, nltk, streamlit
-
-
+ 
+ 
 Installation
 Clone the repository:
 
