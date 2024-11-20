@@ -78,11 +78,11 @@ The app will classify the news as relevant categories based on the language.
 
 <h4>English Classification Models:</h4>
 
-Multinomial.pkl: Trained Multinomial Naive Bayes classifier.
+Multinomial.pkl: Trained Multinomial Naive Bayes classifier.<br>
 tokenization.pkl: Tokenizer for preprocessing English text.
 
 <h4>Hindi Classification Models:</h4>
-hindi_Rf.pkl: Trained Random Forest classifier.
+hindi_Rf.pkl: Trained Random Forest classifier.<br>
 hindiTokenization.pkl: Tokenizer for preprocessing Hindi text.
 
 # Datasets
