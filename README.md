@@ -32,62 +32,66 @@ MLNClassifier/
 
 # Setup Instructions
 
-Prerequisites
+<h3>Prerequisites</h3>
 
 Python 3.7 or higher
 Libraries: numpy, pandas, sklearn, nltk, streamlit
  
  
-Installation
+<h3>Installation</h3>
+
 Clone the repository:
 
-git clone https://github.com/AdityaC784/MLNClassifier.git
-cd MLNClassifier
+       git clone https://github.com/AdityaC784/MLNClassifier.git
+       cd MLNClassifier
 
 
 Install dependencies:
 
-pip install -r requirements.txt
+       pip install -r requirements.txt
 
 
 # How to Run
 
-1. Train and Save Models
+1. <h2>Train and Save Models</h2>
 
-Open EngNewsClassify.ipynb and HinNewsClassify.ipynb in Jupyter Notebook.
+Open EngNewsClassify.ipynb and HinNewsClassify.ipynb in Jupyter Notebook. <br>
 Run the cells to train the models and save them as .pkl files in the directory.
 
 
-2. Streamlit Application
-Run the Streamlit app:
-    streamlit run NewsNLP.py
+2. <h2> Streamlit Application</h2>
 
+Run the Streamlit app:   streamlit run NewsNLP.py  <br>
 
-3. Classify News
+   
+3. <h2>Classify News</h2>
 
 Use the Streamlit app to input news texts.
 The app will classify the news as relevant categories based on the language.
 
-File Details
 
-English Classification Models:
+# File Details
+
+<h4>English Classification Models:</h4>
+
 Multinomial.pkl: Trained Multinomial Naive Bayes classifier.
 tokenization.pkl: Tokenizer for preprocessing English text.
 
-Hindi Classification Models:
+<h4>Hindi Classification Models:</h4>
 hindi_Rf.pkl: Trained Random Forest classifier.
 hindiTokenization.pkl: Tokenizer for preprocessing Hindi text.
 
-Datasets
+# Datasets
 
-English Dataset: [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)   
+<h4>English Dataset:</h4> [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)   
 for english both test.csv and train.csv used.
 
-Hindi Dataset: [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
+<h4>Hindi Dataset:</h4>   [Kaggle Link](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
 
 Download and place them in the directory.
 
-Future Work
+
+# Future Work
 
 Extend support to more languages.
 Experiment with deep learning models.
