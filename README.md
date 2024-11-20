@@ -16,7 +16,7 @@ Datasets: Preprocessed English and Hindi datasets sourced from Kaggle.
 # Directory Structure
 
 
-MLNClassifier/
+MLNClassifier/<br>
 ├── EngNewsClassify.ipynb        # Jupyter notebook for training and saving English models <br>
 ├── HinNewsClassify.ipynb        # Jupyter notebook for training and saving Hindi models<br>
 ├── NewsNLP.py                   # Python script for loading models and running the classifier<br>
@@ -43,6 +43,8 @@ Libraries: numpy, pandas, sklearn, nltk, streamlit
 Clone the repository:
 
        git clone https://github.com/AdityaC784/MLNClassifier.git
+
+       
        cd MLNClassifier
 
 
@@ -53,18 +55,20 @@ Install dependencies:
 
 # How to Run
 
-1. <h2>Train and Save Models</h2>
+1. <h3>Train and Save Models</h3>
 
 Open EngNewsClassify.ipynb and HinNewsClassify.ipynb in Jupyter Notebook. <br>
 Run the cells to train the models and save them as .pkl files in the directory.
 
 
-2. <h2> Streamlit Application</h2>
+2. <h3> Streamlit Application</h3>
 
-Run the Streamlit app:   streamlit run NewsNLP.py  <br>
+Run the Streamlit app:  
+
+       streamlit run NewsNLP.py  
 
    
-3. <h2>Classify News</h2>
+3. <h3>Classify News</h3>
 
 Use the Streamlit app to input news texts.
 The app will classify the news as relevant categories based on the language.
