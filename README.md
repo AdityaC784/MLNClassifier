@@ -17,17 +17,17 @@ Datasets: Preprocessed English and Hindi datasets sourced from Kaggle.
 
 
 MLNClassifier/
-├── EngNewsClassify.ipynb        # Jupyter notebook for training and saving English models
-├── HinNewsClassify.ipynb        # Jupyter notebook for training and saving Hindi models
-├── NewsNLP.py                   # Python script for loading models and running the classifier
+├── EngNewsClassify.ipynb        # Jupyter notebook for training and saving English models <br>
+├── HinNewsClassify.ipynb        # Jupyter notebook for training and saving Hindi models<br>
+├── NewsNLP.py                   # Python script for loading models and running the classifier<br>
 
-├── Multinomial.pkl          # English Multinomial Naive Bayes model
-├── tokenization.pkl         # English Tokenizer
-├── hindi_Rf.pkl             # Hindi Random Forest model
-└── hindiTokenization.pkl    # Hindi Tokenizer
-├── english_news.csv         # English dataset (from Kaggle)
-├── hindi_news.csv           # Hindi dataset (from Kaggle)
-└── README.md                # Project documentation
+├── Multinomial.pkl          # English Multinomial Naive Bayes model<br>
+├── tokenization.pkl         # English Tokenizer<br>
+├── hindi_Rf.pkl             # Hindi Random Forest model<br>
+└── hindiTokenization.pkl    # Hindi Tokenizer<br>
+├── english_news.csv         # English dataset (from Kaggle)<br>
+├── hindi_news.csv           # Hindi dataset (from Kaggle)<br>
+└── README.md                # Project documentation<br>
 
 
 # Setup Instructions
