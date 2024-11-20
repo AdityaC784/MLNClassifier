@@ -1,0 +1,13 @@
+scikit-learn==1.5.2
+seaborn==0.13.2
+idna==3.10
+streamlit==1.38.0
+tokenizers==0.19.1
+tqdm==4.66.5
+wordcloud==1.9.3
+indic-nlp-library==0.92
+inltk==0.9
+matplotlib==3.9.2
+matplotlib-inline==0.1.7
+nltk==3.9.1
+numpy==1.26.4
